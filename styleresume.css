@@ -1,0 +1,53 @@
+:root {
+  --colorprincipal: rgb(106, 106, 199);
+}
+
+.navegacion {
+  background-color: var(--colorprincipal);
+  font-family: lobster, cursive;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+
+.navegacion img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.iconos {
+  position: absolute !important;
+  right: 50px;
+  background-color: var(--colorprincipal);
+  list-style: none;
+}
+
+.cuadroizquierdo {
+  display: flex;
+}
+
+.cuadroizquierdoadentro {
+  padding-left: 50px;
+}
+
+.cuadroizquierdoadentro h1 {
+  font-size: 40px;
+}
+
+/* 
+
+
+
+
+Aqui comienza la seccion 1  
+
+
+
+
+*/
+
+.hd h3 {
+  background-color: crimson;
+}
